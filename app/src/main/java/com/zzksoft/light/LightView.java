@@ -47,8 +47,8 @@ public class LightView extends SurfaceView implements SurfaceHolder.Callback
 		sh.addCallback(this);
 		
 		paint.setColor(Color.WHITE);
-		paint.setTextSize(100);
-		paint.setStrokeWidth(20);
+		paint.setTextSize(300);
+		paint.setStrokeWidth(60);
 		
 	}
 
@@ -79,7 +79,7 @@ public class LightView extends SurfaceView implements SurfaceHolder.Callback
 						
 						canvas.drawColor(Color.HSVToColor(hsv));
 						
-						//canvas.drawText(""+millsOffset,100,100,paint);
+						canvas.drawText("哈哈哈哈",100,500,paint);
 						
 						sh.unlockCanvasAndPost(canvas);
 						
